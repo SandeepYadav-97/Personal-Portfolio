@@ -89,6 +89,14 @@ body{
     margin-bottom: 1rem;
     border-bottom: 2px solid #f4f4f4;
 }
+#projects .project-tile{
+    border: 2px solid yellow;
+    padding: 1rem;
+    border-radius: 20px;
+}
+#projects .project-tile iframe{
+    border-radius: 10px;
+}
 #grid{
     padding:2rem 4rem;
     display: grid;
@@ -105,7 +113,7 @@ body{
     font-weight: bold;
     padding:0.5rem 1rem;
     color:#f4f4f4;
-    border-bottom: 1px solid yellow;
+    border-bottom: 2px solid yellow;
 }
 #contact{
     position: relative;
